@@ -1,0 +1,26 @@
+name: base
+channels:
+  - defaults
+  - pytorch
+  - conda-forge
+dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=2_kmp_llvm
+  - astunparse=1.6.3=py_0
+  - atk-1.0=2.36.0=ha1a6a79_0
+  - beautifulsoup4=4.12.2=py310h06a4308_0
+  - blas=1.0=mkl
+  - boltons=23.0.0=py310h06a4308_0
+  - boost-cpp=1.73.0=h7f8727e_12
+  - brotlipy=0.7.0=py310h7f8727e_1002
+  - bzip2=1.0.8=h7b6447c_0
+  - c-ares=1.19.0=h5eee18b_0
+  - ca-certificates=2023.08.22=h06a4308_0
+  - cairo=1.16.0=hb05425b_5
+  - certifi=2023.7.22=py310h06a4308_0
+  - chardet=4.0.0=py310h06a4308_1003
+  - charset-normalizer=2.0.4=pyhd3eb1b0_0
+  - click=8.0.4=py310h06a4308_0
+  - cmake=3.26.4=h96355d8_0
+  - conda=23.5.2=py310h06a4308_0
+  - conda-build=3.27.0=py310h06a4308_0

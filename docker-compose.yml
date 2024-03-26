@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  python_conda:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./environment.yml:/app/environment.yml
+    stdin_open: true
+    tty: true
